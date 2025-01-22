@@ -1,0 +1,47 @@
+body {
+    background: rgb(186, 186, 183);
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+div.encabezado {
+    background: white;
+    width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+}
+div.cuadro_principal {
+    background: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
+}
+div.encabezado_foto {
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+}
+span {
+    color: gray;
+}
+div.nombre_foto {
+    width: 80%;
+    padding: 5px;
+}
+div.fecha {
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+div.cuadro_principal div.foto img {
+    width: 100%;
+}
+div.descripcion {
+    padding: 5px;
+}
